@@ -1,0 +1,164 @@
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 1200px;
+}
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header-buttons > button {
+  margin-left: 20px;
+}
+
+.table {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border: 2px solid #808080;
+  width: 1200px;
+}
+.table td,
+.table th {
+  border: 2px solid #808080;
+}
+.table td {
+  height: 50px;
+  width: 300px;
+  padding: 0;
+}
+.table .meeting {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D3F5B4;
+  margin: 0;
+  padding: 12px;
+
+}
+.table .meeting .todo {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.meeting .close {
+  font-size: 16px;
+}
+/*footer*/
+.modal {
+  margin-top: 250px;
+}
+.modal-header {
+  flex-direction: column;
+  align-items: center;
+}
+.modal-footer {
+  justify-content: center;
+}
+/***********************Create event****************************/
+.error-message{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee0de;
+  color: #c6655f;
+  font-size: 18px;
+}
+.error-message span {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.error-message .close {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.wrapper-form {
+  width: 600px;
+  padding: 40px;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group p {
+  font-weight: 500;
+}
+.form-group input[type=text] {
+  width: 270px;
+  border-color: rgb(118, 118, 118);
+}
+.form-group .multiselect {
+  width: 270px;
+}
+
+.form-group .selectBox {
+  position: relative;
+}
+
+.form-group .selectBox select {
+  width: 100%;
+  text-align: center;
+}
+
+.form-group .overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.form-group #checkboxes {
+  display: none;
+  background-color: white;
+  width: 270px;
+  position: absolute;
+  border: 1px #dadada solid;
+
+}
+.form-group select {
+  min-height: 38px;
+  border-radius: 5px;
+  width: 270px;
+  padding-left: 7px;
+}
+.form-group .form-check {
+  margin-left: 7px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 780px;
+  margin-top: 50px;
+}
+.btn-light {
+  margin-left: 20px;
+  width: 120px;
+  border: 1px solid rgb(118, 118, 118);
+
+}
+/*****************Additionally classes****************************/
+.close {
+  border-style: none;
+}
+.invalid {
+  background-color: rgba(255, 0, 0, 0.09);
+}
+.hide {
+  visibility: hidden;
+}
+.visually-hidden {
+  display: none;
+}
+.hover {
+  background-color: rgba(128, 128, 128, 0.17);
+}
+
+.red {
+  color: #c6655f;
+}
